@@ -1,6 +1,6 @@
 /* -------------------------------------
            Table of Contents
-* -------------------------------------- 
+* --------------------------------------
     0.  Global
     1.  Menu
     2.  Header
@@ -27,7 +27,7 @@
             0. GLOBAL
 * ------------------------------------- */
 body {
-    font-family: "Roboto Mono", sans-serif; 
+    font-family: "Roboto Mono", sans-serif;
     height: 100%;
     color: #444;
 }
@@ -45,12 +45,12 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
     margin: 20px 0;
-    color: #101010; 
+    color: #101010;
 }
 
 section {
     margin-bottom: 30px;
-    padding: 50px 0 0 0; 
+    padding: 50px 0 0 0;
     position: relative;
 }
 
@@ -132,7 +132,7 @@ section {
 
 .section-holder {
   border: 1px solid #aaa;
-  padding: 30px 30px 50px; 
+  padding: 30px 30px 50px;
 }
 
 .section-title {
@@ -296,7 +296,7 @@ section {
     text-align: center;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-    color: #fff; 
+    color: #fff;
     z-index: 1;
 }
 
@@ -327,7 +327,7 @@ section {
 * ------------------------------------- */
 .img-holder {
     position: relative;
-    margin: 20px 0 30px; 
+    margin: 20px 0 30px;
 }
 
 .tweet {
@@ -600,7 +600,7 @@ section {
 
 .popup-it, .popup-it:hover, .popup-it:focus {
     color: #444;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .popup-it:focus {
@@ -1067,10 +1067,10 @@ section {
 
 
 /* ------------ 11.3 TEXTURE ------------ */
-.texture, 
-#msgSubmit, 
-#fun-fact .counter li, 
-.process li:first-child, 
+.texture,
+#msgSubmit,
+#fun-fact .counter li,
+.process li:first-child,
 .process li:last-child,
 .box-it:before {
     background: url("assets/images/texture.png");
@@ -1120,7 +1120,7 @@ section {
               12. RESPONSIVE
 * ------------------------------------- */
 
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
 
     body {
         font-size: 12px;
@@ -1133,7 +1133,7 @@ section {
     a {
         font-size: 13px;
     }
-    
+
     .header {
         margin-bottom: 30px;
     }
@@ -1214,7 +1214,7 @@ section {
     .icon-holder-time {
         top: 50px;
     }
-    
+
     .box-it {
         max-width: 350px;
         margin:0 auto;
@@ -1222,7 +1222,7 @@ section {
 
 }
 
-@media (max-width: 479px) { 
+@media (max-width: 479px) {
     .process li {
         border: 1px solid #aaa;
         min-width: 90px;
